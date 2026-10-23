@@ -27,8 +27,8 @@ Sou estudante de **Engenharia de Software** e desenvolvedor **Full Stack em form
 
 ### 04 / ESTATÍSTICAS
 <div align="center">
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=elitohn&show_icons=true&hide_border=true&bg_color=0d1117&title_color=a78bfa&text_color=cbd5e1&icon_color=67e8f9&locale=pt-br" alt="Estatísticas do GitHub"/>
-<img width="41%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=elitohn&layout=compact&hide_border=true&bg_color=0d1117&title_color=a78bfa&text_color=cbd5e1&locale=pt-br" alt="Linguagens mais utilizadas"/>
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=elitohn&show_icons=true&hide_border=true&bg_color=0d1117&title_color=a78bfa&text_color=cbd5e1&icon_color=67e8f9&locale=pt-br&cache_seconds=21600" alt="Estatísticas do GitHub"/>
+<img width="41%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=elitohn&layout=compact&hide_border=true&bg_color=0d1117&title_color=a78bfa&text_color=cbd5e1&locale=pt-br&cache_seconds=21600" alt="Linguagens mais utilizadas"/>
 </div>
 
 ### 05 / TRILHA DE CONTRIBUIÇÕES
