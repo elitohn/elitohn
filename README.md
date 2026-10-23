@@ -25,14 +25,14 @@ Sou estudante de **Engenharia de Software** e desenvolvedor **Full Stack em form
 ### 02 / TECNOLOGIAS
 <div align="center">
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python,js,ts,cs,java,html,css,react&theme=dark"/>
-<source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=python,js,ts,cs,java,html,css,react&theme=light"/>
+<source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python%2Cjs%2Cts%2Ccs%2Cjava%2Chtml%2Ccss%2Creact&theme=dark"/>
+<source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=python%2Cjs%2Cts%2Ccs%2Cjava%2Chtml%2Ccss%2Creact&theme=light"/>
 <img src="https://skillicons.dev/icons?i=python,js,ts,cs,java,html,css,react&theme=light" alt="Linguagens e front-end"/>
 </picture>
 <br/><br/>
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=django,flask,dotnet,sqlite,git,github,vscode,visualstudio&theme=dark"/>
-<source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=django,flask,dotnet,sqlite,git,github,vscode,visualstudio&theme=light"/>
+<source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=django%2Cflask%2Cdotnet%2Csqlite%2Cgit%2Cgithub%2Cvscode%2Cvisualstudio&theme=dark"/>
+<source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=django%2Cflask%2Cdotnet%2Csqlite%2Cgit%2Cgithub%2Cvscode%2Cvisualstudio&theme=light"/>
 <img src="https://skillicons.dev/icons?i=django,flask,dotnet,sqlite,git,github,vscode,visualstudio&theme=light" alt="Back-end e ferramentas"/>
 </picture>
 </div>
