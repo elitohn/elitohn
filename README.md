@@ -64,17 +64,17 @@ Sou estudante de **Engenharia de Software** e desenvolvedor **Full Stack em form
 ### 04 / ESTATÍSTICAS
 <div align="center">
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="./assets/stats/atividade-dark.svg"/>
-<source media="(prefers-color-scheme: light)" srcset="./assets/stats/atividade-light.svg"/>
-<img src="./assets/stats/atividade-light.svg" width="370" alt="Estatísticas do GitHub. Estrelas recebidas: 2. Commits (último ano): 99. Pull requests: 1. Issues criadas: 0. Repos. com contribuição (último ano): 0. Rank C."/>
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/elitohn/elitohn/stats-output/assets/stats/atividade-dark.svg"/>
+<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/elitohn/elitohn/stats-output/assets/stats/atividade-light.svg"/>
+<img src="https://raw.githubusercontent.com/elitohn/elitohn/stats-output/assets/stats/atividade-light.svg" width="370" alt="Estatísticas públicas do GitHub"/>
 </picture>
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="./assets/stats/linguagens-dark.svg"/>
-<source media="(prefers-color-scheme: light)" srcset="./assets/stats/linguagens-light.svg"/>
-<img src="./assets/stats/linguagens-light.svg" width="370" alt="Linguagens mais usadas. CSS 30,00%, JavaScript 25,93%, C# 24,40%, HTML 11,77%, Python 4,60%, Java 3,30%."/>
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/elitohn/elitohn/stats-output/assets/stats/linguagens-dark.svg"/>
+<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/elitohn/elitohn/stats-output/assets/stats/linguagens-light.svg"/>
+<img src="https://raw.githubusercontent.com/elitohn/elitohn/stats-output/assets/stats/linguagens-light.svg" width="370" alt="Linguagens mais usadas nos repositórios públicos"/>
 </picture>
 <br/>
-<sub>Dados públicos consultados em 09/11/2026.</sub>
+<sub>Dados públicos · <a href="https://github.com/elitohn/elitohn/actions/workflows/estatisticas.yml">Atualização diária pelo GitHub Actions</a></sub>
 </div>
 
 ### 05 / TRILHA DE CONTRIBUIÇÕES

@@ -1,0 +1,93 @@
+name: Atualizar estatísticas do perfil
+
+on:
+  schedule:
+    - cron: "23 6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/estatisticas.yml
+      - .github/scripts/renderizar-estatisticas.py
+
+permissions: {}
+
+concurrency:
+  group: estatisticas-do-perfil
+  cancel-in-progress: false
+
+jobs:
+  gerar:
+    name: Consultar dados públicos
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+    steps:
+      - name: Consultar atividade
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&locale=pt-br
+          path: cards/atividade.svg
+          core_version: "" # Usa a versão fixada no lockfile da Action.
+          fail_on_error: "true"
+
+      - name: Consultar linguagens
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&locale=pt-br
+          path: cards/linguagens.svg
+          core_version: ""
+          fail_on_error: "true"
+
+      - name: Entregar os dados à etapa de publicação
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: estatisticas-publicas
+          path: |
+            cards/atividade.svg
+            cards/linguagens.svg
+          if-no-files-found: error
+          retention-days: 1
+
+  publicar:
+    name: Renderizar e publicar SVGs
+    needs: gerar
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - name: Obter o renderizador do repositório
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+
+      - name: Obter a branch dos SVGs
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: stats-output
+          path: stats-output
+
+      - name: Baixar os dados deste workflow
+        uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
+        with:
+          name: estatisticas-publicas
+          path: ${{ runner.temp }}/estatisticas-publicas
+
+      - name: Publicar os cards dos dois temas
+        env:
+          ORIGEM: ${{ runner.temp }}/estatisticas-publicas
+        run: |
+          python3 .github/scripts/renderizar-estatisticas.py "$ORIGEM" stats-output/assets/stats
+          git -C stats-output add -- assets/stats/{atividade,linguagens}-{light,dark}.svg
+          if git -C stats-output diff --cached --quiet; then
+            exit 0
+          fi
+          git -C stats-output -c user.name="github-actions[bot]" \
+            -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+            commit -m "Atualiza as estatísticas públicas do perfil"
+          git -C stats-output push origin HEAD:refs/heads/stats-output
