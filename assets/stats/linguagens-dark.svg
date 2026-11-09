@@ -1,18 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="370" height="186" viewBox="0 0 370 186">
   <title>Linguagens mais usadas</title>
-  <desc>Linguagens mais usadas. CSS 30,00%, JavaScript 25,93%, C# 24,40%, HTML 11,77%, Python 4,60%, Java 3,30%.</desc>
-  <defs>
-    <clipPath id="barra"><rect x="22" y="54" width="325" height="10" rx="5"/></clipPath>
-  </defs>
+  <desc>CSS 30,00%, JavaScript 25,93%, C# 24,40%, HTML 11,77%, Python 4,60%, Java 3,30%</desc>
+  <defs><clipPath id="barra"><rect x="22" y="54" width="325" height="10" rx="5"/></clipPath></defs>
   <rect x="4.5" y="4.5" width="361" height="177" rx="10" fill="#15152a" stroke="#393456"/>
   <path d="M28 23l-5 5 5 5m9-10 5 5-5 5m-3-14-4 18" fill="none" stroke="#67e8f9" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
   <g font-family="Arial, Helvetica, sans-serif">
     <text x="49" y="34" font-size="20" font-weight="700" fill="#c4b5fd">Linguagens mais usadas</text>
     <g clip-path="url(#barra)">
       <rect x="22.000" y="54" width="97.500" height="10" fill="#663399"/>
-      <rect x="119.500" y="54" width="84.273" height="10" fill="#f1e05a"/>
-      <rect x="203.773" y="54" width="79.300" height="10" fill="#7355dd"/>
-      <rect x="283.073" y="54" width="38.253" height="10" fill="#e34c26"/>
+      <rect x="119.500" y="54" width="84.272" height="10" fill="#f1e05a"/>
+      <rect x="203.772" y="54" width="79.300" height="10" fill="#7355dd"/>
+      <rect x="283.072" y="54" width="38.252" height="10" fill="#e34c26"/>
       <rect x="321.325" y="54" width="14.950" height="10" fill="#3572A5"/>
       <rect x="336.275" y="54" width="10.725" height="10" fill="#b07219"/>
     </g>
