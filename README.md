@@ -40,40 +40,41 @@ Sou estudante de **Engenharia de Software** e desenvolvedor **Full Stack em form
 ### 03 / PROJETOS EM DESTAQUE
 <div align="center">
 <a href="https://github.com/elitohn/alura_space"><picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=elitohn&repo=alura_space&theme=transparent&hide_border=false&border_color=343154&title_color=a78bfa&text_color=cbd5e1&icon_color=67e8f9&locale=pt-br"/>
-<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=elitohn&repo=alura_space&theme=transparent&hide_border=false&border_color=e2e8f0&title_color=6d28d9&text_color=334155&icon_color=0e7490&locale=pt-br"/>
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=elitohn&repo=alura_space&theme=transparent&hide_border=false&border_color=e2e8f0&title_color=6d28d9&text_color=334155&icon_color=0e7490&locale=pt-br" width="48%" alt="Projeto Alura Space"/>
+<source media="(prefers-color-scheme: dark)" srcset="./assets/projects/alura-space-dark.svg"/>
+<source media="(prefers-color-scheme: light)" srcset="./assets/projects/alura-space-light.svg"/>
+<img src="./assets/projects/alura-space-light.svg" width="370" alt="Projeto Alura Space. Galeria de fotos espaciais com autenticação, busca, filtros e gerenciamento de imagens. Python · Django."/>
 </picture></a>
 <a href="https://github.com/elitohn/django_autenticacao-oauth"><picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=elitohn&repo=django_autenticacao-oauth&theme=transparent&hide_border=false&border_color=343154&title_color=a78bfa&text_color=cbd5e1&icon_color=67e8f9&locale=pt-br"/>
-<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=elitohn&repo=django_autenticacao-oauth&theme=transparent&hide_border=false&border_color=e2e8f0&title_color=6d28d9&text_color=334155&icon_color=0e7490&locale=pt-br"/>
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=elitohn&repo=django_autenticacao-oauth&theme=transparent&hide_border=false&border_color=e2e8f0&title_color=6d28d9&text_color=334155&icon_color=0e7490&locale=pt-br" width="48%" alt="Projeto Autenticação Django"/>
+<source media="(prefers-color-scheme: dark)" srcset="./assets/projects/autenticacao-django-dark.svg"/>
+<source media="(prefers-color-scheme: light)" srcset="./assets/projects/autenticacao-django-light.svg"/>
+<img src="./assets/projects/autenticacao-django-light.svg" width="370" alt="Projeto Autenticação Django. Cadastro, login e controle de acesso com OAuth do GitHub. Python · Django · OAuth."/>
 </picture></a>
 <a href="https://github.com/elitohn/screen-sound-csharp"><picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=elitohn&repo=screen-sound-csharp&theme=transparent&hide_border=false&border_color=343154&title_color=a78bfa&text_color=cbd5e1&icon_color=67e8f9&locale=pt-br"/>
-<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=elitohn&repo=screen-sound-csharp&theme=transparent&hide_border=false&border_color=e2e8f0&title_color=6d28d9&text_color=334155&icon_color=0e7490&locale=pt-br"/>
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=elitohn&repo=screen-sound-csharp&theme=transparent&hide_border=false&border_color=e2e8f0&title_color=6d28d9&text_color=334155&icon_color=0e7490&locale=pt-br" width="48%" alt="Projeto Screen Sound"/>
+<source media="(prefers-color-scheme: dark)" srcset="./assets/projects/screen-sound-dark.svg"/>
+<source media="(prefers-color-scheme: light)" srcset="./assets/projects/screen-sound-light.svg"/>
+<img src="./assets/projects/screen-sound-light.svg" width="370" alt="Projeto Screen Sound. Aplicação de console para cadastrar e avaliar bandas, álbuns e músicas. C# · .NET."/>
 </picture></a>
 <a href="https://github.com/elitohn/Pensamentos-CRUD-Aplica-o-JavaScript-com-API-REST"><picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=elitohn&repo=Pensamentos-CRUD-Aplica-o-JavaScript-com-API-REST&theme=transparent&hide_border=false&border_color=343154&title_color=a78bfa&text_color=cbd5e1&icon_color=67e8f9&locale=pt-br"/>
-<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=elitohn&repo=Pensamentos-CRUD-Aplica-o-JavaScript-com-API-REST&theme=transparent&hide_border=false&border_color=e2e8f0&title_color=6d28d9&text_color=334155&icon_color=0e7490&locale=pt-br"/>
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=elitohn&repo=Pensamentos-CRUD-Aplica-o-JavaScript-com-API-REST&theme=transparent&hide_border=false&border_color=e2e8f0&title_color=6d28d9&text_color=334155&icon_color=0e7490&locale=pt-br" width="48%" alt="Projeto Pensamentos CRUD"/>
+<source media="(prefers-color-scheme: dark)" srcset="./assets/projects/pensamentos-crud-dark.svg"/>
+<source media="(prefers-color-scheme: light)" srcset="./assets/projects/pensamentos-crud-light.svg"/>
+<img src="./assets/projects/pensamentos-crud-light.svg" width="370" alt="Projeto Pensamentos CRUD. Organizador de pensamentos e citações com operações CRUD e API REST simulada. JavaScript · JSON Server."/>
 </picture></a>
 </div>
-<sub>Cards conectados aos repositórios reais. As descrições são exibidas conforme os metadados do GitHub.</sub>
 
 ### 04 / ESTATÍSTICAS
 <div align="center">
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=elitohn&show_icons=true&hide_border=true&bg_color=0d1117&title_color=a78bfa&text_color=cbd5e1&icon_color=67e8f9&locale=pt-br&cache_seconds=21600"/>
-<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=elitohn&show_icons=true&hide_border=true&bg_color=ffffff&title_color=6d28d9&text_color=334155&icon_color=0e7490&locale=pt-br&cache_seconds=21600"/>
-<img src="https://github-readme-stats.vercel.app/api?username=elitohn&show_icons=true&hide_border=true&bg_color=ffffff&title_color=6d28d9&text_color=334155&icon_color=0e7490&locale=pt-br&cache_seconds=21600" width="49%" alt="Estatísticas do GitHub"/>
+<source media="(prefers-color-scheme: dark)" srcset="./assets/stats/atividade-dark.svg"/>
+<source media="(prefers-color-scheme: light)" srcset="./assets/stats/atividade-light.svg"/>
+<img src="./assets/stats/atividade-light.svg" width="370" alt="Estatísticas do GitHub. Estrelas recebidas: 2. Commits (último ano): 99. Pull requests: 1. Issues criadas: 0. Repos. com contribuição (último ano): 0. Rank C."/>
 </picture>
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=elitohn&layout=compact&hide_border=true&bg_color=0d1117&title_color=a78bfa&text_color=cbd5e1&locale=pt-br&cache_seconds=21600"/>
-<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=elitohn&layout=compact&hide_border=true&bg_color=ffffff&title_color=6d28d9&text_color=334155&locale=pt-br&cache_seconds=21600"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=elitohn&layout=compact&hide_border=true&bg_color=ffffff&title_color=6d28d9&text_color=334155&locale=pt-br&cache_seconds=21600" width="41%" alt="Linguagens mais utilizadas"/>
+<source media="(prefers-color-scheme: dark)" srcset="./assets/stats/linguagens-dark.svg"/>
+<source media="(prefers-color-scheme: light)" srcset="./assets/stats/linguagens-light.svg"/>
+<img src="./assets/stats/linguagens-light.svg" width="370" alt="Linguagens mais usadas. CSS 30,00%, JavaScript 25,93%, C# 24,40%, HTML 11,77%, Python 4,60%, Java 3,30%."/>
 </picture>
+<br/>
+<sub>Dados públicos consultados em 09/11/2026.</sub>
 </div>
 
 ### 05 / TRILHA DE CONTRIBUIÇÕES
